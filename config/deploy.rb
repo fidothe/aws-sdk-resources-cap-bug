@@ -12,4 +12,10 @@ namespace :problem do
     require_relative '../lib/b.rb'
     B.problem
   end
+
+  task :c do
+    require 'aws-sdk-resources'
+    client = Aws::CloudFormation::Client.new(region: 'eu-central-1')
+    resource = Aws::CloudFormation::Resource.new(client: client)
+  end
 end
