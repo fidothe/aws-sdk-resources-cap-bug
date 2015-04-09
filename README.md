@@ -2,6 +2,13 @@ Minimal reproduction case for Aws::CloudFormation::Resource instantiation bug wi
 
 We're seeing this with 3.2 and 3.4.
 
-to demonstrate: run either
+to demonstrate: run one or all of
 
-`cap production problem:a` or `cap production problem:b`
+```bash
+cap production problem:a
+cap production problem:b
+cap production problem:c
+```
+
+Issue is at aws/aws-sdk-ruby#771
+
