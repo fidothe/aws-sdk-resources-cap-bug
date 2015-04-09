@@ -10,5 +10,5 @@ cap production problem:b
 cap production problem:c
 ```
 
-Issue is at aws/aws-sdk-ruby#771
+Issue is at https://github.com/aws/aws-sdk-ruby/issues/771
 
